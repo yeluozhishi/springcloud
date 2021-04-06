@@ -11,9 +11,17 @@ import org.springframework.cloud.client.loadbalancer.Response;
 import org.springframework.cloud.loadbalancer.core.*;
 import reactor.core.publisher.Mono;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * 伪权重负载策略
+ * 修改{@link RandomLoadBalancer}而来
+ * whk
+ */
 public class LoadBalancerRule implements ReactorServiceInstanceLoadBalancer{
     private static final Log log = LogFactory.getLog(RandomLoadBalancer.class);
 
