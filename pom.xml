@@ -20,6 +20,7 @@
     <modules>
         <module>eureke-server</module>
         <module>spring-boot-hello</module>
+        <module>spring-boot-hello1</module>
         <module>balancer</module>
     </modules>
 
