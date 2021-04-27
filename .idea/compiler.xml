@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud" />
+        <module name="config-server" />
         <module name="spring-cloud-hystrix" />
         <module name="balancer" />
         <module name="spring-boot-hello1" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="balancer" target="15" />
+      <module name="config-server" target="16" />
       <module name="dstrixdashboard" target="15" />
       <module name="eureke-server" target="15" />
       <module name="spring-boot-hello" target="15" />
@@ -28,6 +30,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="balancer" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="dstrixdashboard" options="-parameters" />
       <module name="eureke-server" options="-parameters" />
       <module name="spring-boot-hello" options="-parameters" />

@@ -9,7 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-@EnableHystrix//启用熔断机制
+//@EnableHystrix//启用熔断机制
 @EnableDiscoveryClient//向服务中心注册
 //@LoadBalancerClients(defaultConfiguration = {LoadBalancerConfig.class}) //启用自己的负载配置
 @SpringBootApplication

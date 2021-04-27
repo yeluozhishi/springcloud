@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/balancer/balancer.iml" filepath="$PROJECT_DIR$/balancer/balancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureke-server/eureke-server.iml" filepath="$PROJECT_DIR$/eureke-server/eureke-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hello/spring-boot-hello.iml" filepath="$PROJECT_DIR$/spring-boot-hello/spring-boot-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hello1/spring-boot-hello1.iml" filepath="$PROJECT_DIR$/spring-boot-hello1/spring-boot-hello1.iml" />
